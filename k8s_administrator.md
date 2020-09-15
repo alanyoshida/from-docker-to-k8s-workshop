@@ -10,19 +10,22 @@
   * kubelet
   * kube proxy
 
-[Diagrams](https://github.com/cloudogu/k8s-diagrams)
+#### Reference Links
+
+* [Diagrams](https://github.com/cloudogu/k8s-diagrams)
+* [Kubernetes objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/)
 
 ### Resources
 
 Kind:
 
-* [pods](k8s/pods.md)
-* [replicasets](k8s/replicasets.md)
-* [deployment](k8s/deployment.md)
-* [namespaces](k8s/namespaces.md)
-* [services](k8s/services.md)
-* configmap
-* statefulset
+* [Pods](k8s/pods.md)
+* [Replicasets](k8s/replicasets.md)
+* [Deployment](k8s/deployment.md)
+* [Namespaces](k8s/namespaces.md)
+* [Services](k8s/services.md)
+* Configmap
+* Statefulset
 
 ## Scheduling
 
@@ -31,7 +34,7 @@ Kind:
 * Taints & Tolerations
 * Node selector
 * Node Affinity
-* [deamonset](k8s/deamonset.md)
+* deamonset
 
 ## Logging & Monitoring
 
@@ -44,8 +47,9 @@ Kind:
 * Secrets
 * TLS
 * Certificates
-* [serviceAccount](k8s/serviceAccount.md)
-* [policy](k8s/policy.md)
+* Service Account
+* Policy
+* Vault
 
 ## Storage
 
@@ -62,6 +66,7 @@ Kind:
 ## Development Life Cycle
 
 * Helm
+* Charts
 * Helm templates
 * Deploy using argo
 * Flagger

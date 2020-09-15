@@ -16,8 +16,6 @@ kubectl describe pod
 kubectl delete pod hello-world
 ```
 
-### Links
+### Challenge
 
-### Exercise
-
-Create a pod with
+Create a yaml file and create a new pod

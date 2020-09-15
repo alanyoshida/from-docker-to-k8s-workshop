@@ -1,6 +1,6 @@
 # From docker to k8s workshop
 
-Workshop for devops about docker and kubernetes.
+Workshop for introducing docker and kubernetes for the non familiar with this technologies.
 
 ### Requirements
 

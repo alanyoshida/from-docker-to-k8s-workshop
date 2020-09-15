@@ -2,6 +2,13 @@
 
 Services exposes your service
 
+### Services use namespaces
+
+<service-name>.<namespace>.svc.cluster.local
+
+Example:
+`db-service.dev.svc.cluster.local`
+
 ### NodePort
 
 Create a port in the node forwarding to the pod

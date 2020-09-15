@@ -42,6 +42,7 @@ Kind:
 ## Development Life Cycle
 
 * Helm
+* Charts
 * Helm templates
 * Deploy using argo
 * Flagger
