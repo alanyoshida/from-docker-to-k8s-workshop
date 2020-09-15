@@ -6,6 +6,7 @@ Services exposes your service
 
 Create a port in the node forwarding to the pod
 
+```
 +----------------------------------------------------------------+
 |                                                                |
 |                                                                |
@@ -28,6 +29,7 @@ Create a port in the node forwarding to the pod
 |                                     +-----------------------+  |
 |                                                                |
 +----------------------------------------------------------------+
+```
 
 ```bash
 kubectl apply -f yaml/services_node_port.yaml
