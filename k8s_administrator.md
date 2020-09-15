@@ -1,14 +1,4 @@
-# k8s Workshop
-
-## Part 1
-
-### Install
-
-Requirements:
-
-* docker
-* kind
-* kubectl
+# Kubernetes for administrators
 
 ### Summary
 
@@ -26,56 +16,56 @@ Requirements:
 
 Kind:
 
-* [pods](k8s-part1/pods.md)
-* [replicasets](k8s-part1/replicasets.md)
-* [deployment](k8s-part1/deployment.md)
-* [namespaces](k8s-part1/namespaces.md)
-* [services](k8s-part1/services.md)
+* [pods](k8s/pods.md)
+* [replicasets](k8s/replicasets.md)
+* [deployment](k8s/deployment.md)
+* [namespaces](k8s/namespaces.md)
+* [services](k8s/services.md)
 * configmap
 * statefulset
 
-## Part 2 - Scheduling
+## Scheduling
 
 * Scheduling
 * Labels & Selectors
 * Taints & Tolerations
 * Node selector
 * Node Affinity
-* [deamonset](k8s-part1/deamonset.md)
+* [deamonset](k8s/deamonset.md)
 
-## Part 3 - Logging & Monitoring
+## Logging & Monitoring
 
 * Loki / Graylog / Kibana ELK
 * Prometheus operator
 * Grafana
 
-## Part 4 - Security
+## Security
 
 * Secrets
 * TLS
 * Certificates
-* [serviceAccount](k8s-part1/serviceAccount.md)
-* [policy](k8s-part1/policy.md)
+* [serviceAccount](k8s/serviceAccount.md)
+* [policy](k8s/policy.md)
 
-## Part 5 - Storage
+## Storage
 
 * Volumes
 * Persistent Volumes
 * Volume Claims
 
-## Part 6 - Networking
+## Networking
 
 * CoreDNS
 * Ingress Controller (nginx, traefik)
 * Service Mesh (Istio, linkerd)
 
-## Part 7 - Development Life Cycle
+## Development Life Cycle
 
 * Helm
 * Helm templates
 * Deploy using argo
 * Flagger
-* Valt
+* Vault
 
 ## Troubleshooting
 
