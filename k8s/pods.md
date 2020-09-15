@@ -4,7 +4,7 @@
 
 ```bash
 # Create
-kubectl apply -f yaml/part1/pods_simple.yaml
+kubectl apply -f yaml/pods_simple.yaml
 
 # List
 kubectl get pods
