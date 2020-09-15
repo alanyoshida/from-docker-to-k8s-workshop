@@ -43,7 +43,13 @@ kubectl get services
 
 ### ClusterIp
 
-Create a virtual ip inside the cluster, to internal comunication between services
+Create a virtual ip inside the cluster, to internal communication between services
+
+```bash
+kubectl create -f yaml/services_cluster_ip.yaml
+kubectl get services
+kubectl get svc
+```
 
 ### LoadBalancer
 
