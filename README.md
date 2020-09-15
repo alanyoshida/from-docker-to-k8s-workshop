@@ -27,5 +27,5 @@ The workshop is in two parts, beggining with docker and choose for developer or 
 
 ## K8s
 
-Getting started for [developers](k8s_developer.md)
-Getting started for [administrators](k8s_administrator.md)
+* Getting started for [developers](k8s_developer.md)
+* Getting started for [administrators](k8s_administrator.md)
