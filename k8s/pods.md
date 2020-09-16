@@ -18,4 +18,9 @@ kubectl delete pod hello-world
 
 ### Challenge
 
-Create a yaml file and create a new pod
+Create a yaml file and create a new pod with mysql
+
+### Reference
+
+* [Pod livefecycle](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/)
+* [Pod readiness gate](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-readiness-gate)

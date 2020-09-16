@@ -21,7 +21,7 @@ Kind:
 * [deployment](k8s/deployment.md)
 * [namespaces](k8s/namespaces.md)
 * [services](k8s/services.md)
-* configmap
+* [configmap](k8s/configmap.md)
 * statefulset
 
 ## Scheduling
@@ -41,12 +41,15 @@ Kind:
 
 ## Development Life Cycle
 
-* Helm
-* Charts
+* Helm/Charts
 * Helm templates
+* Kustomize
 * Deploy using argo
 * Flagger
-* Valt
+* Vault Secrets
+* Skaffold
+* Tilt
+* Telepresence
 
 ## Troubleshooting
 

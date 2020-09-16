@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "example-app"
+  namespace: default
+  labels:
+    app: "example-app"
+spec:
+  containers:
+    - name: example-app
+      image: "aimvector/golang:1.0.0"
+      ports:
+        - containerPort: 5000
+      livenessProbe:
+        httpGet:
+          path: /status
+          port: 5000
+        initialDelaySeconds: 3
+        periodSeconds: 3
+      volumeMounts:
+        - name: config-volume
+          mountPath: /configs/
+  volumes:
+    - name: config-volume
+      configMap:
+        name: example-config
+  restartPolicy: Always
