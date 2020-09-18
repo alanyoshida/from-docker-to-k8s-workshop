@@ -14,16 +14,11 @@ ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 RUN go get github.com/sirupsen/logrus
 RUN go get github.com/buaazp/fasthttprouter
 RUN go get github.com/valyala/fasthttp
-RUN go get github.com/go-delve/delve/cmd/dlv
 
 WORKDIR /go/src/work
 COPY ./src /go/src/work/
 
 RUN go build -o app
-### Run the Delve debugger ###
-COPY ./dlv.sh /
-RUN chmod +x /dlv.sh
-ENTRYPOINT [ "/dlv.sh"]
 
 ###########START NEW IMAGE###################
 

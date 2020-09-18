@@ -27,11 +27,20 @@ Let's do an example:
 kubectl apply -f configmap-example/configmap.yaml
 
 # From file
-kubectl create configmap example-config --from-file /path-to-config/config.json
-
+# kubectl create configmap example-config --from-file /path-to-config/config.json
 
 kubectl get configmaps
 kubectl get configmaps example-config -oyaml
+
+# Runs kind with a registry running in docker in port 5000
+./kind-registry.sh
+
+# Create the deployment
+kubectl apply -f yaml/deployment.yaml
+
+kubectl get pods
+
+kubectl log deployment/configmap-example
 
 ```
 
