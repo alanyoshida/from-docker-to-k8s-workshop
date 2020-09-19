@@ -33,5 +33,5 @@ func main() {
 	router.GET("/", Response)
 	router.GET("/status", Status)
 
-	log.Fatal(fasthttp.ListenAndServe(":5001", router.Handler))
+	log.Fatal(fasthttp.ListenAndServe(":5000", router.Handler))
 }
