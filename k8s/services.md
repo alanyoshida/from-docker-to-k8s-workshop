@@ -61,3 +61,11 @@ kubectl get svc
 ### LoadBalancer
 
 Create a load balancer in supported cloud provider
+
+## Tips
+
+```bash
+kubectl describe svc <your-service>
+```
+
+In Enpoints you can see if are redirecting to the ips of the pods, good to know if you misconfigured the labels, and the service is pointing to nowhere.
