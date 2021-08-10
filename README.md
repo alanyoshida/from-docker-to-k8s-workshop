@@ -15,7 +15,7 @@ You need to install:
 
 * [kind](https://github.com/kubernetes-sigs/kind)
 * [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-* [helm 2](https://helm.sh/docs/intro/install/)
+* [helm >= 3](https://helm.sh/docs/intro/install/)
 
 **Optional:**
 
