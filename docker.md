@@ -7,10 +7,17 @@
 ## Network
 
 Default to bridge, but you can use host
+This file is used to configure the Cidr: `/etc/docker/daemon.json`
+
+```bash
+cat /etc/docker/daemon.json
+
+ip route show | grep docker0
+
+ifconfig docker0
+```
 
 ## Files
-
-This file is used to configure the Cidr: `/etc/docker/daemon.json`
 
 ## Reference
 
